@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class VerificaSeUmNumeroePrimo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Digite um número inteiro posotivo: ");
+        System.out.println("Digite um número inteiro positivo: ");
         int N = scanner.nextInt();
 
         boolean ehPrimo = true;// Variável para indicar se o número é primo
